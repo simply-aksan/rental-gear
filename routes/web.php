@@ -4,7 +4,7 @@ use App\Http\Controllers\BorrowingController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [BorrowingController::class, 'index'])
-    ->name('borrowing.index');
+    ->name('borrowings.index');
 
 Route::get('/pinjam/{equipment}', [BorrowingController::class, 'create'])
     ->name('borrowings.create');

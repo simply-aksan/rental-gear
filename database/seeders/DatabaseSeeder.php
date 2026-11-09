@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
         $equipments = [
             [
                 'name' => 'Power Bank',
-                'image' => 'images/power-bank-missing.jpg',
+                'image' => 'images/power-bank.jpg',
             ],
             [
                 'name' => 'Jas Hujan',
